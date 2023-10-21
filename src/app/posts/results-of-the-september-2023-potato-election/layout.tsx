@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Results of the September 2023 Potato election",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"Hello, and welcome to PMI's coverage of the September 2023 election in the Potato Empire. The results have been released, and we are ready to analyse them in detail.",
 	openGraph: {
 		title: "Results of the September 2023 Potato election",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"Hello, and welcome to PMI's coverage of the September 2023 election in the Potato Empire. The results have been released, and we are ready to analyse them in detail.",
 		url: "https://pmi.toaster.pw/posts/results-of-the-september-2023-potato-election",
 		siteName: "PMI News",
 		locale: "en_NZ",

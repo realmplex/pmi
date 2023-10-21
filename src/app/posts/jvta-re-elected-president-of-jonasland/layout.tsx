@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "JVTA re-elected president of Jonasland",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"After 235 days outside of office in a country named after themselves, JVTA will be returning as president of Jonasland. The news comes following an election in Jonasland, which took place over the past four days.",
 	openGraph: {
 		title: "JVTA re-elected president of Jonasland",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"After 235 days outside of office in a country named after themselves, JVTA will be returning as president of Jonasland. The news comes following an election in Jonasland, which took place over the past four days.",
 		url: "https://pmi.toaster.pw/posts/jvta-re-elected-president-of-jonasland",
 		siteName: "PMI News",
 		locale: "en_NZ",

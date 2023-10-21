@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-image {
+	background-image: url(./posts/carrot-castle-completed/assets/banner.png);
+	background-position: center;
+	background-size: 100% 100%;
+	object-fit: cover;
+}

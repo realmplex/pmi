@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Result of the September 2023 Bird Land election",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"Four days after the national elections, the vote to choose Bird Land's representative is now complete. There were three candidates, JVTA of the Potato Democrats, TheAllSeeingBird of The Opportunities Party, and Dumb_Catz, an independent candidate.",
 	openGraph: {
 		title: "Result of the September 2023 Bird Land election",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"Four days after the national elections, the vote to choose Bird Land's representative is now complete. There were three candidates, JVTA of the Potato Democrats, TheAllSeeingBird of The Opportunities Party, and Dumb_Catz, an independent candidate.",
 		url: "https://pmi.toaster.pw/posts/result-of-the-september-2023-bird-land-election/",
 		siteName: "PMI News",
 		locale: "en_NZ",

@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "SpecShark resigns as server moderator",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"Earlier this morning, at 12:23 am NZST (8:23 am EDT), SpecShark, the current moderator, announced his resignation. SpecShark originally took up the position on April 29th, 2023.",
 	openGraph: {
 		title: "SpecShark resigns as server moderator",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"Earlier this morning, at 12:23 am NZST (8:23 am EDT), SpecShark, the current moderator, announced his resignation. SpecShark originally took up the position on April 29th, 2023.",
 		url: "https://pmi.toaster.pw/posts/specshark-resigns-as-server-moderator",
 		siteName: "PMI News",
 		locale: "en_NZ",

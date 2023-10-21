@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Carrot Castle completed",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"After 294 days of construction, Carrot Castle has finally been	completed. The build, located at the heart of the Carrot mainland, is the largest build on the server to date.",
 	openGraph: {
 		title: "Carrot Castle completed",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"After 294 days of construction, Carrot Castle has finally been	completed. The build, located at the heart of the Carrot mainland, is the largest build on the server to date.",
 		url: "https://pmi.toaster.pw/posts/carrot-castle-completed",
 		siteName: "PMI News",
 		locale: "en_NZ",

@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "RoryRDMB elected as moderator",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"RoryRDMB has been elected as server moderator in a landslide victory. The election brings to conclusion a nine-day period that followed the removal of Jom as moderator.",
 	openGraph: {
 		title: "RoryRDMB elected as moderator",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"RoryRDMB has been elected as server moderator in a landslide victory. The election brings to conclusion a nine-day period that followed the removal of Jom as moderator.",
 		url: "https://pmi.toaster.pw/posts/roryrdmb-elected-as-moderator",
 		siteName: "PMI News",
 		locale: "en_NZ",

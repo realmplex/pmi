@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Growing discontent as server held hostage over disagreements",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		'Realmplex may be going through a second Chaos Day today. And this time, it\'s worse. Right now, Realmplex is "being held hostage" by server host SandwichPress, who had been banned earlier today for duping railway tracks and carpets.',
 	openGraph: {
 		title: "Growing discontent as server held hostage over disagreements",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			'Realmplex may be going through a second Chaos Day today. And this time, it\'s worse. Right now, Realmplex is "being held hostage" by server host SandwichPress, who had been banned earlier today for duping railway tracks and carpets.',
 		url: "https://pmi.toaster.pw/posts/growing-discontent-as-server-held-hostage-over-disagreements",
 		siteName: "PMI News",
 		locale: "en_NZ",

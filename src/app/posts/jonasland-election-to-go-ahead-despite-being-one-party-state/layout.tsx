@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Jonasland election to go ahead despite being one-party state",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"Jonasland's government is continuing to push forward with it's plans for the next election on June 1st, 2023, despite there only being one registered political party at the moment.",
 	openGraph: {
 		title: "Jonasland election to go ahead despite being one-party state",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"Jonasland's government is continuing to push forward with it's plans for the next election on June 1st, 2023, despite there only being one registered political party at the moment.",
 		url: "https://pmi.toaster.pw/posts/jonasland-election-to-go-ahead-despite-being-one-party-state",
 		siteName: "PMI News",
 		locale: "en_NZ",

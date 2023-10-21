@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "SpecShark elected as server admin",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"SpecShark has been elected today as Realmplex admin. This came	after a week-long election to choose a new admin after the resignation of SandwichPress. Eight candidates participated.",
 	openGraph: {
 		title: "SpecShark elected as server admin",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"SpecShark has been elected today as Realmplex admin. This came	after a week-long election to choose a new admin after the resignation of SandwichPress. Eight candidates participated.",
 		url: "https://pmi.toaster.pw/posts/specshark-elected-as-server-admin",
 		siteName: "PMI News",
 		locale: "en_NZ",

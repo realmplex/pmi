@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "SSI elections: Union Party win absolute majority of the vote",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"Today's elections in the Sea Spray Islands have concluded. The SSI Herald states that the Union Party, run by incumbent head of state McTwoPoint0, has won an absolute majority in the vote, receiving 100% of the vote.",
 	openGraph: {
 		title: "SSI elections: Union Party win absolute majority of the vote",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"Today's elections in the Sea Spray Islands have concluded. The SSI Herald states that the Union Party, run by incumbent head of state McTwoPoint0, has won an absolute majority in the vote, receiving 100% of the vote.",
 		url: "https://pmi.toaster.pw/posts/ssi-elections-union-party-win-absolute-majority-of-the-vote",
 		siteName: "PMI News",
 		locale: "en_NZ",

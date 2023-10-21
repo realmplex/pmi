@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Potato Parliament building completed",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"After six months of construction, the Potato Parliament building has been completed. The construction project was initiated amidst constitutional reform in Potato, as the country became a constitutional monarchy.",
 	openGraph: {
 		title: "Potato Parliament building completed",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"After six months of construction, the Potato Parliament building has been completed. The construction project was initiated amidst constitutional reform in Potato, as the country became a constitutional monarchy.",
 		url: "https://pmi.toaster.pw/posts/potato-parliament-building-completed/",
 		siteName: "PMI News",
 		locale: "en_NZ",

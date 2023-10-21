@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Realmplex live again, new host named",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"The server went back up at 9:00 am NZT today, as announced by server owner TaylorWorld. The server will use the hosting service Bloom, and will be both hosted and paid for by	BasilGaming.",
 	openGraph: {
 		title: "Realmplex live again, new host named",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"The server went back up at 9:00 am NZT today, as announced by server owner TaylorWorld. The server will use the hosting service Bloom, and will be both hosted and paid for by	BasilGaming.",
 		url: "https://pmi.toaster.pw/posts/realmplex-live-again-new-host-named",
 		siteName: "PMI News",
 		locale: "en_NZ",

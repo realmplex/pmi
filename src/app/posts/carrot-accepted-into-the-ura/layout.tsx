@@ -1,11 +1,11 @@
 export const metadata = {
 	title: "Carrot accepted into the URA",
 	description:
-		"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+		"TaylorWorld, the Potato King, has announced that the Carrot Republic will be admitted into the United Realmplex Alliance.",
 	openGraph: {
 		title: "Carrot accepted into the URA",
 		description:
-			"The best place to get news for Realmplex. Detailed information on the latest affairs and events",
+			"TaylorWorld, the Potato King, has announced that the Carrot Republic will be admitted into the United Realmplex Alliance.",
 		url: "https://pmi.toaster.pw/posts/carrot-accepted-into-the-ura",
 		siteName: "PMI News",
 		locale: "en_NZ",
