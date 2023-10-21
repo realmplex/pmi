@@ -269,7 +269,7 @@ export default function Posts() {
 								Carrot has today announced another project to expand it&apos;s
 								navy. This project will see the construction of new naval
 								vessels. Once these vessels are complete, Carrot will have a
-								total fleet of 18 warships.{" "}
+								total fleet of 18 warships.
 							</p>
 						</Link>
 					</div>
@@ -290,7 +290,7 @@ export default function Posts() {
 								Today&apos;s elections in the Sea Spray Islands have concluded.
 								The SSI Herald states that the Union Party, run by incumbent
 								head of state McTwoPoint0, has won an absolute majority in the
-								vote, receiving 100% of the vote.{" "}
+								vote, receiving 100% of the vote.
 							</p>
 						</Link>
 					</div>
