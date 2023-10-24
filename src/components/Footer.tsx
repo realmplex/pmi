@@ -4,7 +4,7 @@ export default function Footer() {
 	return (
 		<footer className="mt-auto flex items-center justify-center bg-zinc-800">
 			<p className="my-4 mr-10 font-medium text-zinc-500 sm:mr-16">
-				© {new Date().getFullYear()} toasterpw
+				&copy; {new Date().getFullYear()} toasterpw
 			</p>
 			<Link
 				href="https://github.com/realmplex/pmi"

@@ -9,7 +9,7 @@ export default function Article() {
 				<h1 className="text-3xl font-bold text-zinc-400">
 					Carrot accepted into the URA
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 23/04/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 23/04/2023</p>
 				<Image className="my-5 self-center" src={banner} alt="Carrot Flag" />
 				<hr className="mb-5 border-zinc-500" />
 				<p className="text-zinc-400">

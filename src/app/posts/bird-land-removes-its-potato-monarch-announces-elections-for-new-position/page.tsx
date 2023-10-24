@@ -10,7 +10,7 @@ export default function Article() {
 					Bird Land removes its Potato Monarch, announces elections for new
 					position
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 05/09/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 05/09/2023</p>
 				<Image className="my-5 self-center" src={banner} alt="Bird Land Flag" />
 				<hr className="mb-5 border-zinc-500" />
 				<p className="text-zinc-400">
