@@ -24,9 +24,9 @@ export default function Posts() {
 	return (
 		<>
 			<main>
-				<div className="my-5 grid xl:grid-cols-2">
+				<div className="mx-auto grid max-w-[1120px] xl:grid-cols-2">
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/roryrdmb-elected-as-moderator"
 					>
 						<Image
@@ -46,7 +46,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/attempt-to-rig-mod-elections-foiled-perpetrator-unknown"
 					>
 						<Image
@@ -66,7 +66,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/jvta-re-elected-president-of-jonasland"
 					>
 						<Image
@@ -87,7 +87,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/potato-parliament-building-completed"
 					>
 						<Image
@@ -108,7 +108,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/result-of-the-september-2023-bird-land-election"
 					>
 						<Image
@@ -130,7 +130,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/results-of-the-september-2023-potato-election"
 					>
 						<Image
@@ -150,7 +150,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/bird-land-removes-its-potato-monarch-announces-elections-for-new-position"
 					>
 						<Image
@@ -171,7 +171,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/election-season-coming-soon-in-jonasland-and-potato"
 					>
 						<Image
@@ -192,7 +192,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/jonasland-affected-by-major-terrorist-attack"
 					>
 						<Image
@@ -214,7 +214,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/realmplex-live-again-new-host-named"
 					>
 						<Image
@@ -235,7 +235,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/realmplex-likely-to-change-hosts-again"
 					>
 						<Image
@@ -256,7 +256,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/carrot-announces-new-naval-expansion-project"
 					>
 						<Image
@@ -277,7 +277,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/ssi-elections-union-party-win-absolute-majority-of-the-vote"
 					>
 						<Image
@@ -298,7 +298,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/jonasland-election-to-go-ahead-despite-being-one-party-state"
 					>
 						<Image
@@ -318,7 +318,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/gsc-to-launch-copper-production-division"
 					>
 						<Image
@@ -339,7 +339,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/specshark-resigns-as-server-moderator"
 					>
 						<Image
@@ -359,7 +359,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/the-gays-form-organisation-to-rival-ura"
 					>
 						<Image
@@ -380,7 +380,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/growing-discontent-as-server-held-hostage-over-disagreements"
 					>
 						<Image
@@ -401,7 +401,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/carrot-castle-completed"
 					>
 						<Image
@@ -421,7 +421,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/results-of-the-second-potato-empire-general-election"
 					>
 						<Image
@@ -442,7 +442,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/carrot-announces-completion-of-new-ships-refitting-of-others"
 					>
 						<Image
@@ -464,7 +464,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/specshark-elected-as-server-admin"
 					>
 						<Image
@@ -484,7 +484,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/carrot-accepted-into-the-ura"
 					>
 						<Image
@@ -505,7 +505,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="m-2.5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/gsc-to-build-facility-for-testing-development-and-business"
 					>
 						<Image
@@ -526,7 +526,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-end"
+						className="mx-5 mb-5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-end"
 						href="/posts/server-hosting-to-be-transferred"
 					>
 						<Image
@@ -548,7 +548,7 @@ export default function Posts() {
 						</div>
 					</Link>
 					<Link
-						className="mx-5 my-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 md:m-5 xl:justify-self-start"
+						className="mx-5 mb-5 mt-2.5 flex max-w-2xl basis-32 justify-self-center rounded-lg bg-neutral-750 xl:justify-self-start"
 						href="/posts/potato-to-award-citizens-that-fought-in-battle-for-thailand"
 					>
 						<Image
