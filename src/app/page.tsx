@@ -1,142 +1,104 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import thumbnail1 from "./posts/roryrdmb-elected-as-moderator/assets/banner.png";
-import thumbnail2 from "./posts/potato-parliament-building-completed/assets/banner.png";
-import thumbnail3 from "./posts/carrot-castle-completed/assets/banner.png";
-import thumbnail4 from "./posts/results-of-the-september-2023-potato-election/assets/banner.png";
-import thumbnail5 from "./posts/attempt-to-rig-mod-elections-foiled-perpetrator-unknown/assets/banner.png";
-import thumbnail6 from "./posts/carrot-announces-completion-of-new-ships-refitting-of-others/assets/cns_triumph.png";
+import thumbnail1 from "./posts/carrot-castle-completed/assets/banner.png";
+import thumbnail2 from "./posts/carrot-announces-completion-of-new-ships-refitting-of-others/assets/banner.png";
+import thumbnail3 from "./posts/potato-parliament-building-completed/assets/banner.png";
 
 export default function Home() {
 	return (
-		<main>
-			<div className="mx-4 grid grid-cols-1 md:grid-cols-2">
-				<div className="mb-2.5 mt-5 flex max-w-xl justify-self-center rounded-2xl bg-zinc-700 md:mr-2.5 md:justify-self-end">
-					<Image
-						className="h-auto w-24 rounded-l-2xl object-cover lg:w-28 xl:w-32"
-						src={thumbnail1}
-						alt="RoryRDMB's in-game skin"
-					/>
-					<Link className="m-2" href="/posts/roryrdmb-elected-as-moderator">
-						<h1 className="text-xl font-bold text-amber-500 md:text-2xl">
-							RoryRDMB elected as moderator
-						</h1>
-						<p className="text-sm text-zinc-400 md:text-base">
-							RoryRDMB has been elected as server moderator in a landslide
-							victory. The election brings to conclusion a nine-day period that
-							followed the removal of Jom as moderator.
-						</p>
-					</Link>
-				</div>
-				<div className="mb-2.5 mt-2.5 flex max-w-xl justify-self-center rounded-2xl bg-zinc-700 md:ml-2.5 md:mt-5 md:justify-self-start">
-					<Image
-						className="h-auto w-24 rounded-l-2xl object-cover lg:w-28 xl:w-32"
-						src={thumbnail2}
-						alt="Potato Parliament"
-					/>
+		<>
+			<main>
+				<div className="m-2.5 flex flex-col md:mx-auto md:grid md:max-w-[1120px] md:grid-cols-3 md:grid-rows-5 xl:grid-cols-4">
 					<Link
-						className="m-2"
-						href="/posts/potato-parliament-building-completed"
+						className="group m-2.5 flex flex-col rounded-md bg-neutral-800 hover:bg-neutral-750"
+						href="/posts/carrot-castle-completed"
 					>
-						<h1 className="text-xl font-bold text-amber-500 md:text-2xl">
-							Potato Parliament building completed
-						</h1>
-						<p className="text-sm text-zinc-400 md:text-base">
-							After six months of construction, the Potato Parliament building
-							has been completed. The construction project was initiated amidst
-							constitutional reform in Potato, as the country became a
-							constitutional monarchy.
-						</p>
-					</Link>
-				</div>
-				<div className="md:max-w-6.5xl my-2.5 flex max-w-xl flex-col justify-self-center rounded-2xl bg-zinc-700 md:col-span-2">
-					<Link className="" href="/posts/carrot-castle-completed">
 						<Image
-							className="h-auto max-h-64 rounded-t-2xl object-cover"
-							src={thumbnail3}
+							className="w-auto flex-grow rounded-t-md object-cover"
+							src={thumbnail1}
 							alt="Carrot Castle"
 						/>
-					</Link>
-					<Link className="m-2 flex" href="/posts/carrot-castle-completed">
-						<h1 className="mr-2.5 text-lg font-bold text-amber-500 sm:text-xl md:text-2xl">
+						<h1 className="m-5 mb-1.5 text-xl font-bold text-stone-300 group-hover:text-stone-200 md:text-2xl">
 							Carrot Castle completed
 						</h1>
-						<p className="ml-2.5 text-sm text-zinc-400 md:text-base">
-							The build, located at the heart of the Carrot mainland, is the
-							largest build on the server to date (though the title of tallest
-							build remains with Sol Corp Tower), with a length of 394 blocks
-							and a height of 76 blocks.
+
+						<p className="mx-5 mb-3.5 text-xs font-medium text-stone-400 md:text-sm">
+							JVTA &bull; 08/05/2023
 						</p>
 					</Link>
-				</div>
-				<div className="mb-2.5 mt-5 flex max-w-xl justify-self-center rounded-2xl bg-zinc-700 md:mr-2.5 md:justify-self-end">
-					<Image
-						className="h-auto w-24 rounded-l-2xl object-cover lg:w-28 xl:w-32"
-						src={thumbnail4}
-						alt="PMI Elections"
-					/>
+					<div className="col-span-2 flex flex-col justify-evenly">
+						<Link
+							className="group m-2.5 flex flex-col rounded-md bg-neutral-800 hover:bg-neutral-750 md:text-xl"
+							href="/posts/roryrdmb-elected-as-moderator"
+						>
+							<h1 className="mx-3.5 mb-1 mt-3.5 font-bold text-stone-300 group-hover:text-stone-200">
+								RoryRDMB elected as moderator
+							</h1>
+							<p className="mx-3.5 mb-3.5 mt-1 text-2xs font-medium text-stone-400 md:text-xs">
+								JVTA &bull; 20/10/2023
+							</p>
+						</Link>
+						<Link
+							className="group m-2.5 flex flex-col rounded-md bg-neutral-800 hover:bg-neutral-750"
+							href="/posts/attempt-to-rig-mod-elections-foiled-perpetrator-unknown"
+						>
+							<h1 className="mx-3.5 mb-1 mt-3.5 text-lg font-bold text-stone-300 group-hover:text-stone-200 md:text-xl">
+								Attempt to rig mod elections foiled; perpetrator unknown
+							</h1>
+							<p className="mx-3.5 mb-3.5 mt-1 text-2xs font-medium text-stone-400 md:text-xs">
+								JVTA &bull; 15/10/2023
+							</p>
+						</Link>
+						<Link
+							className="group m-2.5 flex flex-col rounded-md bg-neutral-800 hover:bg-neutral-750"
+							href="/posts/jvta-re-elected-president-of-jonasland"
+						>
+							<h1 className="mx-3.5 mb-1 mt-3.5 text-lg font-bold text-stone-300 group-hover:text-stone-200 md:text-xl">
+								JVTA re-elected president of Jonasland
+							</h1>
+							<p className="mx-3.5 mb-3.5 mt-1 text-2xs font-medium text-stone-400 md:text-xs">
+								JVTA &bull; 13/10/2023
+							</p>
+						</Link>
+					</div>
 					<Link
-						className="m-2"
-						href="/posts/results-of-the-september-2023-potato-election"
+						className="group m-2.5 flex flex-col rounded-md bg-neutral-800 hover:bg-neutral-750"
+						href="/posts/potato-parliament-building-completed"
 					>
-						<h1 className="text-xl font-bold text-amber-500 md:text-2xl">
-							Results of the September 2023 Potato election
+						<Image
+							className="w-auto flex-grow rounded-t-md object-cover"
+							src={thumbnail3}
+							alt="Potato Parliament building"
+						/>
+						<h1 className="m-5 mb-1.5 text-xl font-bold text-stone-300 group-hover:text-stone-200 md:text-2xl">
+							Potato Parliament building completed
 						</h1>
-						<p className="text-sm text-zinc-400 md:text-base">
-							Hello, and welcome to PMI&apos;s coverage of the September 2023
-							election in the Potato Empire. The results have been released, and
-							we are ready to analyse them in detail.
+
+						<p className="mx-5 mb-3.5 text-xs font-medium text-stone-400 md:text-sm">
+							JVTA &bull; 23/09/2023
 						</p>
 					</Link>
-				</div>
-				<div className="mb-2.5 mt-2.5 flex max-w-xl justify-self-center rounded-2xl bg-zinc-700 md:ml-2.5 md:mt-5 md:justify-self-start">
-					<Image
-						className="h-auto w-24 rounded-l-2xl object-cover lg:w-28 xl:w-32"
-						src={thumbnail5}
-						alt="Realmplex logo"
-					/>
 					<Link
-						className="m-2"
-						href="/posts/attempt-to-rig-mod-elections-foiled-perpetrator-unknown"
-					>
-						<h1 className="text-xl font-bold text-amber-500 md:text-2xl">
-							Attempt to rig mod elections foiled; perpetrator unknown
-						</h1>
-						<p className="text-sm text-zinc-400 md:text-base">
-							TaylorWorld revealed today that an attempt had been made to rig
-							the moderator elections. The news of its discovery was published
-							today in a short statement on the Discord.
-						</p>
-					</Link>
-				</div>
-				<div className="md:max-w-6.5xl my-2.5 flex max-w-xl flex-col justify-self-center rounded-2xl bg-zinc-700 md:col-span-2">
-					<Link
-						className=""
+						className="group row-span-2 m-2.5 flex h-fit w-fit rounded-md bg-neutral-800 hover:bg-neutral-750 md:col-span-2 md:row-span-1"
 						href="/posts/carrot-announces-completion-of-new-ships-refitting-of-others"
 					>
 						<Image
-							className="h-auto max-h-64 rounded-t-2xl object-cover"
-							src={thumbnail6}
-							alt="CNS Triumph"
+							className="h-auto w-32 rounded-l-md object-cover md:w-48 xl:w-64"
+							src={thumbnail2}
+							alt="Carrot navy"
 						/>
-					</Link>
-					<Link
-						className="m-2 flex"
-						href="/posts/carrot-announces-completion-of-new-ships-refitting-of-others"
-					>
-						<h1 className="mr-2.5 text-lg font-bold text-amber-500 sm:text-xl md:text-2xl">
-							Carrot announces completion of new ships, refitting of others
-						</h1>
-						<p className="ml-2.5 text-sm text-zinc-400 md:text-base">
-							The build, located at the heart of the Carrot mainland, is the
-							largest build on the server to date (though the title of tallest
-							build remains with Sol Corp Tower), with a length of 394 blocks
-							and a height of 76 blocks.
-						</p>
+						<div className="m-5 flex flex-col">
+							<h1 className="mb-1.5 text-xl font-bold text-stone-300 group-hover:text-stone-200 md:text-2xl">
+								Carrot announces completion of new ships, refitting of others
+							</h1>
+							<p className="mt-1.5 text-xs font-medium text-stone-400 md:text-sm">
+								JVTA &bull; 29/04/2023
+							</p>
+						</div>
 					</Link>
 				</div>
-			</div>
-		</main>
+			</main>
+		</>
 	);
 }

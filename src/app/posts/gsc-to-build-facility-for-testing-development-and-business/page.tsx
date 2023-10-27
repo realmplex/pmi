@@ -9,7 +9,7 @@ export default function Article() {
 				<h1 className="text-3xl font-bold text-zinc-400">
 					GSC to build facility for testing, development, and business
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 22/04/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 22/04/2023</p>
 				<Image className="my-5 self-center" src={banner} alt="GSC logo" />
 				<hr className="mb-5 border-zinc-500" />
 				<p className="text-zinc-400">

@@ -9,7 +9,7 @@ export default function Article() {
 				<h1 className="text-3xl font-bold text-zinc-400">
 					SSI elections: Union Party win absolute majority of the vote
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 27/05/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 27/05/2023</p>
 				<Image
 					className="my-5 self-center"
 					src={banner}

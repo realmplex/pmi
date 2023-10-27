@@ -10,7 +10,7 @@ export default function Article() {
 				<h1 className="text-3xl font-bold text-zinc-400">
 					Result of the September 2023 Bird Land election
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 09/09/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 09/09/2023</p>
 				<Image
 					className="my-5 self-center"
 					src={banner}

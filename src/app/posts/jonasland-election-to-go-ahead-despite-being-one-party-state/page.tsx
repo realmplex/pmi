@@ -9,7 +9,7 @@ export default function Article() {
 				<h1 className="text-3xl font-bold text-zinc-400">
 					Jonasland election to go ahead despite being one-party state
 				</h1>
-				<p className="my-2 font-medium text-zinc-500">JVTA • 21/05/2023</p>
+				<p className="my-2 font-medium text-zinc-500">JVTA &bull; 21/05/2023</p>
 				<Image className="my-5 self-center" src={banner} alt="Jonasland flag" />
 				<hr className="mb-5 border-zinc-500" />
 				<p className="text-zinc-400">

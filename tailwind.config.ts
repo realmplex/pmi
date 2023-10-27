@@ -19,6 +19,11 @@ const config: Config = {
 			},
 			maxWidth: {
 				'6.5xl': '1172px'
+			},
+			colors: {
+				neutral: {
+					750: '#303030'
+				}
 			}
 		},
 	},
